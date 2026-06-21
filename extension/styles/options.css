@@ -1,0 +1,114 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset {
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+legend {
+  padding: 0 8px;
+  font-weight: 600;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.checkbox-row {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.checkbox-row input {
+  width: auto;
+  accent-color: #38bdf8;
+}
+
+input,
+textarea {
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.actions.tight {
+  justify-content: flex-start;
+}
+
+button {
+  background: #38bdf8;
+  border: none;
+  color: #0f172a;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#status,
+#scholar-status {
+  font-size: 14px;
+}
+
+.scholar-preview {
+  background: #0d182c;
+  border: 1px solid #1f2a40;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 13px;
+  max-height: 200px;
+  overflow-y: auto;
+  color: #cbd5f5;
+}
+
+.scholar-preview ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.scholar-preview li {
+  margin-bottom: 4px;
+}
+
